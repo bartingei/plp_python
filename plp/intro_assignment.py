@@ -13,7 +13,7 @@ Example: If a user inputs 10, 5, and +, your program should display 10 + 5 = 15.
 
 num1 = input("Enter the first number  ")
 num2 = input("Enter the second number  ")
-operation = input("Operation type?  + , - , * ")
+operation = input("Operation type?  + \n - \n * \n")
 
 if(operation == '+'):
     sum = int(num1) + int(num2)
@@ -21,6 +21,6 @@ if(operation == '+'):
 elif(operation == "-"):
     difference = int(num1) - int(num2)
     print("difference of ",num1, " and ", num2 ,"is: ", difference)
-else:
+elif(operation == "*"):
     product = int(num1) * int(num2)
     print("product of ",num1, " and ", num2 ,"is: ", product)
